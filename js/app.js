@@ -19,10 +19,11 @@ else if (playGame < 'yes' || 'y') {
 
 var rainDay = prompt('Question, is it raining where you are? {yes or no}')
 if (rainDay === 'No' || rainDay === 'n' || rainDay === 'no') {
-  ('How sad, did i ever tell you how much i love the smell of fresh rain {yes or no}');
+  alert('How sad, i love the smell of fresh rain');
 }
 else if (rainDay < 'No' || 'n') {
   alert('thats just wonderful, sometimes i feel like i could dance in the rain others that it reflects my inner most emotions.')
 }
-var
+
+
 
