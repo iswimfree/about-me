@@ -1,4 +1,4 @@
-'use strict'; 
+'use strict';
 
 
 
@@ -10,12 +10,19 @@ alert(' Welcome ' + userName);
 // ""
 var playGame = prompt('I sense you have time, would you like to play a game? {yes or no}');
 // console.log(user + ' said ' + playGame)
-if (playGame === 'yes' || playGame === 'y'){
- alert('I thought you might say ' + playGame + ' lets continue');
+if (playGame === 'yes' || playGame === 'y') {
+  alert('I thought you might say ' + playGame + ' lets continue');
 }
-else if(playGame < 'yes' || 'y'){
-alert('Unfortunately, no one can escape their fate. lets begin')
+else if (playGame < 'yes' || 'y') {
+  alert('Unfortunately, no one can escape their fate. lets begin')
 }
 
-
+var rainDay = prompt('Question, is it raining where you are? {yes or no}')
+if (rainDay === 'No' || rainDay === 'n' || rainDay === 'no') {
+  ('How sad, did i ever tell you how much i love the smell of fresh rain {yes or no}');
+}
+else if (rainDay < 'No' || 'n') {
+  alert('thats just wonderful, sometimes i feel like i could dance in the rain others that it reflects my inner most emotions.')
+}
+var
 
