@@ -34,28 +34,31 @@ else if (rainDay < 'No' || 'n') {
 var coldDay = prompt('do you ejoy the snow? {yes or no}');
 // console.log(ss)
 if (coldDay === 'yes' || coldDay === 'y') {
-  alert('the first time i ever saw snow was the day after i moved to Wa, it used to be my favorite but not any more. To hard ot drive in');
+  alert('the first time i ever saw snow was the day after i moved to Wa, it used to be my favorite but not any more. To hard to drive in');
 }
 else if (coldDay < 'yes' || 'y') {
   alert('hmmm ill figure you out')
 }
 
-//question 4 started
+//question 4 done
 
-var windyDay = prompt(' {yes or no}');
-// console.log(' its not difficult ' user + ' said ' + playGame)
-if (playGame === 'yes' || playGame === 'y') {
-  alert('I thought you might say ' + playGame + ' lets continue');
+var windyDay = prompt(' do you love the wind? {yes or no}');
+// console.log()
+if (windyDay === 'yes' || windyDay === 'y') {
+  alert('windy days always remind me on Winnie the Pooh in his first book, im not sure why');
 }
-else if (playGame < 'yes' || 'y') {
-  alert('Unfortunately, no one can escape their fate. Lets begin')
+else if (windyDay < 'yes' || 'y') {
+  alert('so you just dont like anything good do you.')
+}
+// //question 5 started
 
+var sunnyDay = prompt('you must love a good sunny day? {yes or no}');
+// console.log()
+if (sunnyDay === 'no' || sunnyDay === 'n') {
+  alert('i was right when i said you didnt like anything good');
+}
+else if (sunnyDay < 'no' || 'n') {
+  alert('i love feeling the heat while im laying on a sandy beach by the ocean. However good i feel, i still find my self awaiting the next rainy day.')
+}
 
-// //question 5 
-// var playGame = prompt('I sense you have time, would you like to play a game? {yes or no}');
-// // console.log(' its not difficult ' user + ' said ' + playGame)
-// if (playGame === 'yes' || playGame === 'y') {
-//   alert('I thought you might say ' + playGame + ' lets continue');
-// }
-// else if (playGame < 'yes' || 'y') {
-//   alert('Unfortunately, no one can escape their fate. Lets begin')
+alert(' Thank you ' + userName + ' it was nice getting to learn a little about you, i hope you find my page to be enjoyable.')
