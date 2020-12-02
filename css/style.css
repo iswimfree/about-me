@@ -4,13 +4,13 @@ body {
 }
 
 header {
-  color: purple;
-  background-color: blanchedalmond;
+  color: white;
+  
 }
 h1 {
   font-size: 3em;
   text-align: center;
-  background-color: cadetblue;
+  color: white;
   width: 600px;
   padding: 20px;
   margin: 20px;
@@ -20,10 +20,13 @@ h1 {
 h2{
   font-size: 2em;
 }
-#first-paragraph {
-  background-color: rgb(157, 217, 219);
+body { 
+  
+  font-size: 1.5em;
+  color: white; 
+  background-image: url("https://pbs.twimg.com/media/EMe83acWwAEhbA6.jpg")
+  
+
 }
 
-.second-class {
-  background-color: darkgray;
-}
+ 
