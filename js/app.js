@@ -95,4 +95,6 @@ for (var i = 0; i < 6; i++) {
   }
 
 }
+
+
 alert(' Thank you ' + userName + ' it was nice getting to learn a little about you, i hope you find my page to be enjoyable.');
