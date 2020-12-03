@@ -61,7 +61,7 @@ if (sunnyDay === 'no' || sunnyDay === 'n') {
 // Indicates through an alert if the guess is “too high” or “too low”.
 // It should give the user exactly four opportunities to get the correct answer.
 // After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some
-// this si so hard lol
+// this ii so hard lol
 
 var correctAnswer = 5;
 var numberOfGuesses = 4;
@@ -77,6 +77,9 @@ for (var i = 0; i < numberOfGuesses; i++) {
   }
 
 }
+alert('answer is 5');
+
+//question 7 not finished 
 var mostFav = ['wind', 'snow', 'rain'];
 
 for (var i = 0; i < 6; i++) {
