@@ -56,4 +56,25 @@ if (sunnyDay === 'no' || sunnyDay === 'n') {
   alert('i love feeling the heat while im laying on a sandy beach by the ocean. However good i feel, i still find my self awaiting the next rainy day.');
 }
 
+// question 6: started
+// question must Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+// Indicates through an alert if the guess is “too high” or “too low”.
+// It should give the user exactly four opportunities to get the correct answer.
+// After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some 
+//
+
+var correctAnswer = 5;
+var numberOfGuesses = 4;
+for (var i = 0; i < numberOfGuesses; i++) {
+  var userAnswer = prompt('How many questions did i ask?');
+  if (userAnswer === '5' || userAnswer === correctAnswer) {
+    alert('nicely done ' + userName + ' the correct answer is ' + correctAnswer);
+    break;
+  } else if (userAnswer > correctAnswer) {
+    alert('thats too high');
+  } else if (userAnswer < correctAnswer) {
+    alert('thats too low ');
+  }
+
+}
 alert(' Thank you ' + userName + ' it was nice getting to learn a little about you, i hope you find my page to be enjoyable.');
