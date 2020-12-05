@@ -77,7 +77,8 @@ qFive();
 // Indicates through an alert if the guess is “too high” or “too low”.
 // It should give the user exactly four opportunities to get the correct answer.
 // After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some
-// this ii so hard lol
+// this is so hard lol
+
 function qSix() {
   var correctAnswer = 5;
   var numberOfGuesses = 4;
@@ -93,24 +94,34 @@ function qSix() {
     }
 
   }
-  alert('answer is 5');
+  alert('you anwsered 5 questions so far');
 }
 qSix();
 
-// //question 7 not finished 
-// var mostFav = ['wind', 'snow', 'rain'];
+// //question 7 not finished
 
-// for (var i = 0; i < 6; i++) {
-//   var weaTher = prompt('what is my favorite weather?');
-//   for (var j = 0; j < mostFav.length; j++) {
-//     if (weaTher === mostFav[i]) {
-//       alert('i love ' + mostFav + ' days ');
-//       break;
-//     }
-//     else if (weaTher !== mostFav[j]) {
-//       alert('I dont think so.');
-//     }
-//   }
+function qSeven() {
+  var mostFav = ['wind', 'snow', 'rain'];
+  var atTempts = 0;
+  var numGuess = 6;
+  var rice = true;
+  while (rice && atTempts <= numGuess); {
+    atTempts++;
+    var weaTher = prompt('what is my favorite weather?');
+    for (var j = 0; j < mostFav.length; j++) {
+      if (weaTher === mostFav[j]) {
+        alert('i love ' + mostFav + ' days ');
+        break;
+      }
+    } if (rice); {
+      alert('I dont think so.');
+    }
+  }
+}
+qSeven();
 
-// }
-alert(' Thank you ' + userName + ' it was nice getting to learn a little about you, i hope you find my page to be enjoyable.');
+function pine() {
+  alert(' Thank you ' + userName + ' it was nice getting to learn a little about you, i hope you find my page to be enjoyable.');
+}
+
+pine();
